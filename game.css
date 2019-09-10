@@ -1,0 +1,135 @@
+body{
+	box-shadow: black;
+background-image: repeating-linear-gradient(120deg,gray 20%,black 30%);
+   height:665px;
+   width:500px;
+}
+.board{
+	width:300px;
+	height:580px;
+	margin-left:540px;
+	margin-top:80px;
+	
+}
+.top{
+	width:300px;
+	height:80px;
+	background-color: black; 
+}
+.answer{
+	width:200px;
+	height:100px;
+	background-color:black;
+}
+.answerpegslines{
+		display: flex;
+		width:200px;
+		height:85px;
+		border: 1px solid black;
+		
+	}
+	.answerpeg {
+		padding:5px; 
+		margin:14px -10px 10px 22px;
+		width:40px;
+		height: 40px;
+		background:maroon;
+		border-radius: 50%;
+	}
+
+.but{
+	margin-left:200px;
+	margin-top:-75px;
+	background-color:black; 
+	color: yellowgreen; 
+	border-radius:100px;
+    border: 2px solid red;
+}
+.guess-container {
+	width: 100%;
+	height: 425px;
+	background-color:black; 
+ }
+.guesspegslines{
+		display: flex;
+		width:200px;
+		height:85px;
+		border: 1px solid black;
+		
+	}
+	.guesspeg {
+		padding:5px; 
+		margin:14px -10px 10px 22px;
+		width:40px;
+		height: 40px;
+		background: blue;
+		border-radius: 50%;
+	}
+	.gradepegslines{
+		display: flex;
+		margin-left:202px;
+		margin-top:-87px;
+		width:32%;
+		height:85px;
+		border: 1px solid rgb(240, 9, 9);
+		
+	}
+	.gradepeg {
+		padding:5px; 
+		margin:30px -5px 10px 8px;
+		width:15px;
+		height: 15px;
+		background: linear-gradient(#000066, blue);
+		border-radius: 50%;
+	}
+
+  
+
+.bottom{
+	width:300px;
+	height:95px;
+	margin-top:0px;
+	background-color: orangered; 
+}
+.selector-outer {
+	float:left;
+  box-sizing: border-box;
+  width: 16%;
+  height: 52%;
+  border-radius: 50%;
+  margin: 23px 13px;
+  border: 1px solid black;
+}
+
+.selector-outer:hover {
+  border: 1px solid white;
+}
+
+.selector-inner {
+  box-sizing: border-box;
+  width: 55%;
+  height: 60%;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 18% 18% 22% 22%;
+}
+
+.selector-inner:hover {
+  border: 1px solid white;
+}
+
+.red {
+  background-color: red;
+}
+ .green {
+   background-color: green;
+ }
+
+ .yellow {
+   background-color: yellow;
+ }
+
+ .pink {
+   background-color:pink;
+ }
+
